@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.intro h2 {
+  color: #146421;
+  font-size: 5rem;
+}
+
+.intro p {
+  color: #6b62f0;
+  font-size: 2rem;
+}
+
+.intro button {
+  padding: 2rem 4rem;
+  border: none;
+  background-color: #146421;
+  color: aliceblue;
+}
+/*# sourceMappingURL=style.css.map */

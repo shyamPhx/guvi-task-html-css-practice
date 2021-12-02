@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxes{
+    border: 1rem solid black;
+}
+
+.box{
+    padding:5rem;
+}
+
+.box1{
+    background: rgb(223, 146, 146);
+}
+
+
+.box2{
+    background: rgb(146, 223, 169);
+}
+
+
+.box3{
+    background: rgb(205, 146, 223);
+}
+
+
+.box4{
+    background: rgb(218, 223, 146);
+}
+
+
+.box5{
+    background: rgb(143, 235, 227);
+}
+
+
+.box6{
+    background: rgb(27, 40, 83);
+}
+
+.boxes{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    min-height:100vh;
+}

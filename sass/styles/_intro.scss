@@ -1,0 +1,25 @@
+.intro{
+    display:flex;
+    min-height:100vh;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    h2{
+        color:$primary;
+        font-size:$big-font;
+    }
+
+    p{
+        color:$secondary;
+        font-size: $regular-font;
+    }
+
+    button{
+        padding:2rem 4rem;
+        border:none;
+        background-color:$primary;
+        color:aliceblue;
+    }
+}
